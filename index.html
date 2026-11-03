@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b2a5b">
+<title>IHD TAXI - รถเหมาสระแก้ว รถเช่าพร้อมคนขับ รับส่งด่านอรัญประเทศ สนามบิน 24 ชม.</title>
+<meta name="description" content="IHD TAXI (มงคลบริการ) บริการรถเหมาสระแก้ว รถเช่าพร้อมคนขับ รถตู้ VIP รับส่งด่านอรัญประเทศ ตลาดโรงเกลือ สนามบิน แท็กซี่ด่วน 24 ชั่วโมง โทร 063-638-5818">
+<link rel="icon" href="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/3004.jpg?w=1024">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TaxiService","name":"IHD TAXI (มงคลบริการ) รถเหมาสระแก้ว","telephone":"+66636385818","areaServed":{"@type":"AdministrativeArea","name":"จังหวัดสระแก้ว"},"openingHours":"Mo-Su 00:00-23:59"}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Kanit',sans-serif;font-weight:300;font-size:17px;line-height:1.75;color:#111;background:#fff;overflow-x:hidden;-webkit-tap-highlight-color:transparent}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+section{scroll-margin-top:84px}
+.c{text-align:center}
+/* header */
+header{position:sticky;top:0;z-index:50;background:linear-gradient(115deg,#0b2a5b 0%,#123e86 45%,#1b5aa8 100%);border-bottom:3px solid #d80000}
+.hd{display:flex;align-items:center;gap:14px;padding:12px 18px}
+.hd img{width:56px;height:56px;object-fit:cover;background:#b8f0c4}
+.hd b{font-weight:500;font-size:1.55rem;color:#fff;flex:1}
+#mb{font-size:1.7rem;width:44px;height:44px;background:none;border:0;cursor:pointer;color:#fff}
+#menu{display:none;background:#e3f9e9;padding:6px 20px 14px}#menu.on{display:block}
+#menu a{display:block;padding:11px 0;border-bottom:1px solid #b7e4c1;font-weight:400}
+.banner img{width:100%}
+/* hero */
+.h1{margin:26px 14px 0;background:#0b2a5b;color:#b8f5c8;border-radius:30px;text-align:center;font-size:clamp(2.6rem,12vw,4.2rem);line-height:1.2;padding:18px 10px;font-weight:400}
+.sub{color:#0b2a5b;text-align:center;font-weight:500;font-size:1.55rem;line-height:1.55;padding:28px 18px}
+/* slider */
+.slider{margin:6px 18px 0;border-radius:30px;overflow:hidden}
+.track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.track::-webkit-scrollbar{display:none}
+.sl{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:16/10;background:#dfe6e9}
+.sl img{width:100%;height:100%;object-fit:cover}
+.dots{display:flex;justify-content:center;gap:12px;padding:14px 0 0}
+.dots i{width:14px;height:14px;border-radius:50%;background:#cfcfcf;transition:.2s}.dots i.on{background:#0b2a5b;transform:scale(1.15)}
+.txt{padding:44px 22px;text-align:center;font-size:1.3rem;line-height:1.95;font-weight:300}
+.txt b{font-weight:700}
+/* buttons */
+.pill{display:flex;align-items:center;gap:16px;border-radius:999px;padding:16px 22px;font-size:1.4rem;font-weight:600;margin:0 auto 16px;max-width:560px;border:4px solid #000;line-height:1.25}
+.pill .ic{flex:none;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;color:#fff}
+.pill small{display:block;font-size:1.5rem;font-weight:500}.pill u{color:#0a4be0}
+.y{background:#b8f0c4;color:#0b2a5b}.y .ic{background:#d80000}
+.dg{background:#0b2a5b;color:#fff}.dg .ic{background:#2fa86a;border-radius:50%}
+.mg{background:#d80000;color:#fff;border:0}.mg .ic{background:none;font-size:2.4rem}
+.gr{background:#00b900;color:#000;border:0}.gr .ic{background:#fff;color:#00b900;border-radius:14px;font-size:2rem}
+.rd{background:#d80000;color:#fff;border:0}.rd .ic{background:none;font-size:2.4rem}
+.wa{background:#7ed99a;color:#fff;justify-content:center;font-size:2.2rem;padding:12px 20px;max-width:340px;font-weight:500}
+.wa i{font-size:2.3rem}
+/* G */
+.g{background:#c9f5d6;padding:90px 0}
+.gb{margin:0 26px;border-radius:40px;padding:48px 26px 34px;background:linear-gradient(#0b2a5b,#14418a 55%,#1b5aa8);box-shadow:0 14px 30px rgba(0,30,80,.4)}
+.gl{background:#e3f9e9;border-radius:24px;padding:30px 24px 30px 22px;margin-bottom:44px;font-size:1.45rem;line-height:1.9}
+.gl li{margin-left:24px;margin-bottom:14px}.gl a{color:#0b2a8a;text-decoration:underline}
+/* airport */
+.ap{background:#d4f7de;border-radius:34px;margin:60px 26px 0;padding:34px 18px;box-shadow:0 14px 26px rgba(0,0,0,.25);text-align:center}
+.ap h2{font-size:clamp(2.6rem,12vw,4rem);color:#0b2a5b;line-height:1.3;font-weight:400}
+.frame{margin:40px 52px 0;background:#d9d9d9;border-radius:50px;padding:26px;box-shadow:0 14px 26px rgba(0,0,0,.3)}
+.frame img{border-radius:34px;width:100%;aspect-ratio:4/3;object-fit:cover}
+/* I */
+.sec{position:relative;margin-top:60px;border-top:14px solid #0b2a5b;border-bottom:14px solid #0b2a5b;background:#d7e6f8 center/cover;text-align:center;padding:60px 18px 50px}
+.sec::before{content:"";position:absolute;inset:0;background:rgba(215,230,248,.85)}
+.sec>*{position:relative}.sec h2{font-size:clamp(2.6rem,12vw,4rem);color:#0b2a5b;font-weight:400;line-height:1.3}
+.sec p{margin-top:70px;font-size:1.3rem;line-height:1.95}
+/* cars */
+.ct{color:#0b2a5b;font-size:clamp(2.8rem,13vw,4.4rem);text-align:center;margin:70px 0 40px;font-weight:400;line-height:1.2}
+.car{margin:0 26px 70px;border-radius:44px;padding:34px 26px 34px;text-align:center;color:#fff}
+.car img{width:100%;aspect-ratio:4/3;object-fit:contain;margin-bottom:36px}
+.car h3{font-size:2.6rem;font-weight:400;line-height:1.2;margin-bottom:12px}.car p{font-size:1.2rem;line-height:1.8}
+.car a{display:block;margin:28px 0 0;border:4px solid #e01b1b;border-radius:999px;padding:12px;font-size:2rem;font-weight:400}
+.c1{background:#0b2a5b}.c1 h3{color:#9ff0b4}.c2{background:#123e9c}.c2 h3{color:#9ff0b4}.c3{background:#0a1f45}.c3 h3{color:#9ff0b4}
+/* K */
+.k{background:#0f2f66;margin-top:60px;border-top:14px solid #d80000;padding-top:0}
+.k h2{color:#fff;font-weight:400;font-size:clamp(2.4rem,11vw,3.6rem);line-height:1.35;text-align:center;letter-spacing:.06em;padding:80px 16px 0}
+.line{width:min(540px,70%);height:14px;background:#d80000;margin:70px auto 90px}
+.kimg{padding:0 26px 60px}.kimg img{border-radius:40px;width:100%;aspect-ratio:3/2;object-fit:cover}
+.kb{position:relative;background:#0a1f45 center/cover;padding:90px 26px 100px;border-top:14px solid #d80000}
+.kb div{background:rgba(4,18,46,.88);color:#fff;border-radius:42px;padding:44px 30px;font-size:1.3rem;line-height:1.95}
+.kc{padding:60px 18px 0}
+.full{width:100%;aspect-ratio:3/2;object-fit:cover}
+/* L */
+.l{background:#12408f;margin-top:80px;padding-top:80px}
+.l h2{color:#fff;font-weight:400;font-size:clamp(2.6rem,12vw,4rem);line-height:1.4;text-align:center;padding:0 14px}
+.l .line{margin:70px auto 60px}
+.l .strip{background:#0a1f45;color:#fff;padding:20px 24px;font-size:1.3rem;line-height:1.9;margin:50px 0 60px}
+.l .full{aspect-ratio:16/9}
+.rf{margin:50px 52px 0;border:26px solid #f00;border-radius:60px;overflow:hidden;background:#000}
+.rf img{width:100%;aspect-ratio:5/4;object-fit:cover}
+.rt{color:#c00;text-align:center;font-size:2.4rem;margin:12px 0 60px;font-weight:400}
+.lw{background:#fff;padding-bottom:20px}
+/* M */
+.m h2{color:#0b2a5b;text-align:center;font-weight:400;font-size:clamp(2.4rem,11vw,3.6rem);line-height:1.5;letter-spacing:.12em;padding:90px 14px 0}
+.m .line{margin:80px auto 70px;width:min(520px,70%)}
+.mc{position:relative;margin:0 54px 26px;border:8px solid #0b2a5b;border-radius:60px;overflow:hidden;background:#222 center/cover;text-align:center;color:#fff;padding:36px 14px 28px;min-height:270px}
+.mc::before{content:"";position:absolute;inset:0;background:rgba(4,18,46,.78)}.mc>*{position:relative}
+.mi{width:130px;height:130px;margin:0 auto 22px;border:6px solid #7ee8a0;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:3.6rem;color:#7ee8a0}
+.mc p{font-size:1.9rem;line-height:1.35;font-weight:400}
+.dr{margin:50px 54px 0;border-radius:34px;overflow:hidden;box-shadow:12px 14px 20px rgba(0,0,0,.3)}.dr img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.mt{padding:60px 36px 40px;font-size:1.3rem;line-height:1.95;text-align:left}
+/* N */
+.n{position:relative;margin:60px 26px 0;background:#0b2a5b center/cover;padding:90px 0 50px;overflow:hidden}
+.n::before{content:"";position:absolute;inset:0;background:linear-gradient(#04122ecc,#04122e55 30%,#0000)}.n>*{position:relative}
+.np{width:min(86%,460px);margin:0 auto;background:#04122e;color:#9ff0b4;border:3px solid #fff;border-radius:30px;text-align:center;font-size:1.9rem;font-weight:500;padding:20px 12px;line-height:1.3}
+.nb{margin:40px 26px 0;background:rgba(255,255,255,.9);border-radius:22px;padding:24px 28px;font-size:1.3rem;line-height:1.8}
+.nb ul{margin:22px 0 4px 22px;font-size:1.5rem;line-height:1.9}
+.rb{display:flex;justify-content:center;gap:24px;margin-top:44px}
+.rb a{width:86px;height:86px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:2.4rem;box-shadow:0 8px 16px rgba(0,0,0,.3)}
+.rb a:nth-child(1){background:#c00000}.rb a:nth-child(2){background:#008c00}.rb a:nth-child(3){background:#2fa876}
+.o{margin:60px 26px 0;background:#e8eef8;text-align:center}
+.o h2{font-size:clamp(2.2rem,9vw,3.2rem);font-weight:400;line-height:1.45;padding:36px 8px 10px}
+.o p{padding:30px 22px;font-size:1.3rem;line-height:1.95;text-align:left}
+.o img{width:100%;aspect-ratio:4/3;object-fit:cover}
+/* reviews */
+.rv{padding:80px 0 20px;background:#fff}.rv h2{text-align:center;font-weight:400;color:#0b2a5b;font-size:clamp(2.4rem,11vw,3.6rem);margin-bottom:24px}
+.rv .sl{aspect-ratio:3/4}.rv .sl img{object-fit:contain;background:#f4f4f4}
+footer{background:#04122e;color:#ccc;text-align:center;padding:36px 16px 120px;font-size:.95rem;margin-top:70px}
+footer b{color:#fff;font-weight:500}
+/* floating */
+.fab{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:40;display:flex;flex-direction:column;gap:12px}
+.fab a{width:56px;height:56px;border-radius:50%;color:#fff;font-size:1.7rem;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 22px -6px rgba(0,0,0,.45)}
+.fab a:nth-child(1){background:#e60000;font-size:1.4rem}.fab a:nth-child(2){background:#06c755}.fab a:nth-child(3){background:#25d366}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.cta3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:16px 12px 4px}
+.cta3 a{display:flex;align-items:center;justify-content:center;gap:8px;border:3px solid #000;border-radius:999px;padding:12px 4px;font-weight:600;font-size:1.1rem;color:#fff;line-height:1.2;box-shadow:0 6px 12px rgba(0,0,0,.2)}
+.cta3 .cp{background:#d80000}.cta3 .cl{background:#06c755}.cta3 .ca{background:#0b2a5b}
+.arh h2{text-align:center;font-weight:400;color:#0b2a5b;font-size:clamp(2rem,8.4vw,3.2rem);line-height:1.35}.arh p.s{text-align:center;color:#444;padding:6px 18px 24px}
+.arl{display:grid;gap:18px;padding:0 18px}@media(min-width:760px){.arl{grid-template-columns:1fr 1fr}}
+.ar{display:block;background:#d4f7de;border-radius:30px;overflow:hidden;box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.ar img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#b7e4c1}.ab{padding:18px 20px 22px}.ab small{color:#0a7a3a;font-weight:500}.ab h3{font-size:1.4rem;line-height:1.35;font-weight:500;margin:2px 0 6px}.ab p{font-size:1.05rem;color:#333;line-height:1.7}.mo{display:inline-block;margin-top:8px;color:#0b2a5b;font-weight:600}
+.btn2{border:3px solid #000;border-radius:999px;padding:12px 24px;font-size:1.15rem;font-weight:600;color:#fff;background:#0b2a5b;cursor:pointer;font-family:inherit}.btn2.g{background:#1b7a46}
+.au{display:flex;align-items:center;gap:10px;margin:6px 0}.au img{width:40px;height:40px;border-radius:50%;object-fit:cover;aspect-ratio:1;border:2px solid #fff}.au b{font-weight:500}
+.rvg{columns:2;column-gap:10px;padding:26px 14px 0}@media(min-width:760px){.rvg{columns:4}}
+.rvg img{width:100%;margin-bottom:10px;border-radius:16px;cursor:zoom-in;box-shadow:0 4px 10px rgba(0,0,0,.2)}
+#lb,#reader,#adm{display:none;position:fixed;inset:0}
+#lb{z-index:90;background:rgba(0,0,0,.92);align-items:center;justify-content:center;padding:14px}#lb.on{display:flex}#lb img{max-height:88vh;border-radius:14px}
+#reader{z-index:80;background:#fff;overflow:auto}#reader.on{display:block}.rin{max-width:760px;margin:0 auto;padding:16px 18px 80px}
+#rcl{border:3px solid #000;border-radius:999px;padding:8px 18px;font-weight:600;background:#b8f0c4;cursor:pointer;font-family:inherit;font-size:1rem}
+#rbody h1{font-size:1.9rem;line-height:1.35;font-weight:500;margin:16px 0 4px;color:#0b2a5b}#rbody h2{font-size:1.35rem;margin:22px 0 6px;color:#0b2a5b;font-weight:500}#rbody p{margin-bottom:12px;font-size:1.15rem;line-height:1.9}#rbody ul{margin:0 0 12px 1.4em;font-size:1.15rem;line-height:1.9}
+#rbody .cv{border-radius:24px;overflow:hidden;margin-top:14px}.mt2{color:#0a7a3a;font-weight:500}
+.act{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.act a{border:3px solid #000;border-radius:999px;padding:10px 18px;color:#fff;font-weight:600}
+#adm{z-index:70;background:rgba(0,0,0,.6);align-items:flex-end}#adm.on{display:flex}
+.sheet{background:#fff;width:100%;max-height:92vh;overflow:auto;border-radius:28px 28px 0 0;padding:16px 16px 40px;max-width:720px;margin:0 auto}
+.ah{display:flex;justify-content:space-between;align-items:center;font-size:1.3rem;font-weight:500;margin-bottom:10px}.ah button{font-size:1.4rem;background:none;border:0;cursor:pointer}
+.tb{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px}.tb button{border:2px solid #0b2a5b;border-radius:999px;padding:8px 2px;font-family:inherit;font-weight:500;font-size:.95rem;background:#fff;color:#0b2a5b;cursor:pointer}.tb button.on{background:#0b2a5b;color:#fff}
+.sheet label{display:block;font-weight:500;font-size:.9rem;margin:10px 0 2px}.sheet input,.sheet textarea{width:100%;font:inherit;font-size:16px;padding:9px 10px;border:2px solid #b8c9e0;border-radius:12px}.sheet textarea{min-height:200px}
+.r2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.sheet .btn2{width:100%;margin-top:16px}.sheet small{color:#555;display:block;margin-top:6px;line-height:1.5}
+#ast{margin-top:12px;padding:12px;border-radius:12px;display:none;font-weight:500}.ok{background:#d1fae5;color:#065f46}.bad{background:#fee2e2;color:#991b1b}.wt{background:#fef9c3;color:#854d0e}
+.arbox{margin:0 18px}
+.arT{display:flex;width:100%;justify-content:space-between;align-items:center;gap:10px;background:#d4f7de;border:3px solid #000;border-radius:24px;padding:16px 18px;font-family:inherit;font-size:1.2rem;font-weight:600;cursor:pointer;text-align:left;box-shadow:0 8px 16px rgba(0,0,0,.18);color:#111}
+.arT small{display:block;font-weight:300;font-size:.95rem;color:#333;margin-top:2px;line-height:1.4}
+.arT .chev{font-size:1.7rem;transition:transform .2s;flex:none}.arT[aria-expanded=true] .chev{transform:rotate(180deg)}
+.arl{grid-template-columns:1fr!important;padding:14px 0 0!important;gap:12px}
+.ar{display:flex;align-items:stretch;border-radius:22px}
+.ar img{width:112px;min-height:112px;height:auto;aspect-ratio:auto;flex:none;object-fit:cover}
+.ar .ab{padding:12px 14px}.ab h3{font-size:1.1rem;margin:0 0 2px}.ab p{display:none}
+#arM{display:none;position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.6);align-items:flex-end}#arM.on{display:flex}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 12px;max-width:560px;margin:0 auto 6px}
+.trio a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;border:3px solid #000;border-radius:18px;padding:9px 3px;min-height:74px;color:#fff;font-weight:600;font-size:.95rem;line-height:1.2;text-align:center}
+.trio a i{font-size:1.35rem;margin-bottom:2px}.trio small{font-size:.76rem;font-weight:400}
+.trio .ta{background:#d80000}.trio .tr{background:#d80000}.trio .tg{background:#06c755}.trio .tv{background:#1b7a46}
+.ap{margin:40px 44px 0;padding:22px 14px;border-radius:26px}.ap .txt{padding:14px 4px 4px;font-size:.95rem;line-height:1.75}
+.frame{margin:26px 92px 0;padding:16px;border-radius:36px}.frame img{border-radius:24px}
+.h1{font-size:clamp(2.1rem,9.6vw,3.4rem)}.sub{font-size:1.25rem}
+.ap h2{font-size:clamp(1.7rem,7vw,2.6rem)}.sec h2{font-size:clamp(2.1rem,9.6vw,3.2rem)}.ct{font-size:clamp(2.2rem,10.4vw,3.5rem)}
+.k h2{font-size:clamp(1.9rem,8.8vw,2.9rem)}.l h2{font-size:clamp(2.1rem,9.6vw,3.2rem)}.m h2{font-size:clamp(1.9rem,8.8vw,2.9rem)}
+.o h2{font-size:clamp(1.75rem,7.2vw,2.55rem)}.arh h2{font-size:clamp(1.6rem,6.7vw,2.55rem)}.rv h2{font-size:clamp(1.9rem,8.8vw,2.9rem)}
+.car h3{font-size:2.1rem}.np{font-size:1.55rem}
+.ar .au{margin:2px 0}.ar .au img{width:30px;height:30px;min-height:0;aspect-ratio:1;border-radius:50%}.ar .au b{font-size:.95rem}
+body{font-family:'IBM Plex Sans Thai','Noto Sans Thai',sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+.txt,.sub,.ap .txt,.mt,.nb,.o p,.kb div,.l .strip,.gl,.car p,.ab p,.hd b{font-weight:400}
+h1,h2,h3,.h1,.ct,.np,.rt,.car h3,.ap h2,.sec h2,.k h2,.l h2,.m h2,.o h2,.arh h2,.rv h2,.mc p{font-weight:600}
+.k h2{letter-spacing:.02em}.m h2{letter-spacing:.03em}.sub{font-weight:500}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mini a{display:flex;align-items:center;gap:8px;border:3px solid #000;border-radius:999px;padding:6px 10px;font-weight:600;font-size:.92rem;line-height:1.15;min-width:0}
+.mini .ic{flex:none;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.9rem}
+.mini small{display:block;font-weight:500;font-size:.78rem}
+.mini .y .ic{background:#d80000}.mini .dg .ic{background:#2fa86a}
+.gl{margin-bottom:22px}.gb{padding-bottom:26px}
+.mini a{font-size:.82rem;gap:6px;padding:6px 8px}.mini .ic{width:26px;height:26px;font-size:.8rem}.mini a span:last-child{white-space:nowrap}.mini small{font-size:.74rem}
+.rf{border:0;border-radius:34px;margin:40px 22px 0;box-shadow:0 12px 24px rgba(0,0,0,.28)}
+.rf img{aspect-ratio:4/3;display:block}
+/* ===== ปรับสมดุลขนาด ให้ทันสมัย ===== */
+.cta3,.trio{gap:10px;padding-left:12px;padding-right:12px;max-width:none}
+.cta3 a,.trio a{flex-direction:row;gap:8px;min-height:0;padding:12px 4px;border:3px solid #000;border-radius:999px;font-size:1.05rem;font-weight:600;line-height:1.2;box-shadow:0 6px 12px rgba(0,0,0,.2);white-space:nowrap}
+.trio a i{font-size:1.05rem;margin:0}.trio small{display:none}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:4px 14px 8px}
+.stats div{background:#d4f7de;border:3px solid #000;border-radius:22px;padding:10px 4px 8px;text-align:center;line-height:1.25;box-shadow:0 6px 12px rgba(0,0,0,.15)}
+.stats b{display:block;font-size:1.45rem;font-weight:700;color:#0b2a5b;font-variant-numeric:tabular-nums;line-height:1.3}
+.stats span{font-size:.78rem;color:#222;font-weight:500}
+.h1{font-size:clamp(1.9rem,8.6vw,3.05rem);text-wrap:balance;margin-top:22px}
+.sub{font-size:1.12rem;padding:22px 18px 14px}
+.txt,.sec p,.kb div,.l .strip,.mt,.nb,.o p,.ap .txt{font-size:1.05rem;line-height:1.85}
+.txt{padding:34px 22px}.gl{font-size:1.15rem;line-height:1.8}.nb ul{font-size:1.15rem}
+.ap h2{font-size:clamp(1.5rem,6.2vw,2.3rem)}.sec h2,.l h2{font-size:clamp(1.8rem,8vw,2.8rem)}
+.k h2,.m h2{font-size:clamp(1.7rem,7.6vw,2.6rem)}.o h2{font-size:clamp(1.55rem,6.6vw,2.3rem)}.arh h2,.rv h2{font-size:clamp(1.5rem,6.2vw,2.3rem)}
+.ct{font-size:clamp(1.75rem,8.3vw,2.8rem);margin:50px 0 28px}
+.car{margin:0 22px 44px;padding:26px 22px}.car img{margin-bottom:20px}.car h3{font-size:1.7rem}.car p{font-size:1rem;line-height:1.75}
+.car a{font-size:1.5rem;padding:9px;border-width:3px;margin-top:20px}
+.line{height:8px;margin:36px auto 44px}.k h2{padding-top:52px}.m h2{padding-top:56px}.l{padding-top:56px;margin-top:56px}.l .line{margin:36px auto 36px}
+.sec{padding:44px 18px 40px}.sec p{margin-top:34px}.g{padding:56px 0}
+.mc{min-height:0;padding:24px 14px 20px;margin-bottom:18px}.mi{width:92px;height:92px;font-size:2.5rem;border-width:5px;margin-bottom:14px}.mc p{font-size:1.4rem}
+.rt{font-size:1.6rem;margin:10px 0 40px}.np{font-size:1.35rem;padding:16px 12px}
+.kb{padding:60px 22px 64px}.kb div{padding:30px 22px}
+
+</style>
+</head>
+<body>
+<header><div class="hd"><img data-img="logo" alt="โลโก้ IHD TAXI"><b>IHD TAXI</b><button id="mb" aria-label="เมนู"><i class="fa-solid fa-bars"></i></button></div>
+<nav id="menu"><a href="#taxi">แท็กซี่ด่วนสระแก้ว / จองล่วงหน้า</a><a href="#airport">รับส่งสนามบิน / ด่านอรัญประเทศ</a><a href="#cars">รถที่ให้บริการ</a><a href="#rent">เช่ารถพร้อมคนขับสระแก้ว</a><a href="#van">เหมารถตู้สระแก้ว</a><a href="#province">เหมารถสระแก้ว-ต่างจังหวัด</a><a href="#articles">บทความ</a><a href="#reviews">รีวิวลูกค้า</a><a href="#contact">ติดต่อเรา</a></nav></header>
+
+<main>
+<div class="banner"><img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/3790-1.png?w=1024" alt="IHD TAXI บริการรถเหมาสระแก้ว"></div>
+
+<div class="cta3"><a class="cp" href="tel:0636385818"><i class="fa-solid fa-phone"></i>โทร</a><a class="cl" href="https://lin.ee/ReyDllr" target="_blank" rel="noopener"><i class="fa-brands fa-line"></i>LINE</a><a class="ca" href="#articles"><i class="fa-solid fa-newspaper"></i>บทความ</a></div>
+<!-- แถบปุ่มจองบริการ ทรงเล็กยาวเต็มขอบ -->
+<div style="padding: 0 15px; margin: 10px 0;">
+  <a href="https://mongkol2010nk-dev.github.io/mongkol112/bijong.html" 
+     target="_blank"
+     style="display: flex; align-items: center; justify-content: center; gap: 8px; 
+            width: 100%; max-width: 560px; margin: 0 auto; padding: 8px 15px; 
+            background: #d80000; color: #ffffff; font-size: 1rem; font-weight: bold; 
+            text-decoration: none; border-radius: 50px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+    🚘 จองบริการทันที
+  </a>
+</div>
+<!-- 🌟 ส่วนปุ่มทางลัดเลือกเส้นทางจังหวัดยอดนิยม (เพิ่มลิงก์ได้ไม่จำกัด) -->
+<div style="max-width: 560px; margin: 15px auto; padding: 0 15px; text-align: center;">
+  <p style="font-weight: bold; color: #333; margin-bottom: 10px; font-size: 0.95rem;">🔥 เส้นทางยอดนิยม / เหมารถข้ามจังหวัด:</p>
+  <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
+         <!-- 📌 ลิงก์ที่ 2: ตาก (เพิ่มลิงก์ใหม่ของคุณตรงนี้) -->
+     <a href="https://mongkol2010nk-dev.github.io/maesod-taxi/" target="_blank" style="padding: 8px 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 20px; font-size: 0.9rem; font-weight: 500; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">📍 ตาก</a>
+         <!-- 📌 ลิงก์ที่ 2: หนองคาย (เพิ่มลิงก์ใหม่ของคุณตรงนี้) -->
+     <a href="https://mongkol2010nk-dev.github.io/maesod-taxi/" target="_blank" style="padding: 8px 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 20px; font-size: 0.9rem; font-weight: 500; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">📍 หนองคาย</a>
+
+          <!-- 📌 ลิงก์ที่ 2: ภูเก็ต (เพิ่มลิงก์ใหม่ของคุณตรงนี้) -->
+     <a href="https://mongkol2010nk-dev.github.io/maesod-taxi/" target="_blank" style="padding: 8px 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 20px; font-size: 0.9rem; font-weight: 500; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">📍 ภูเก็ต</a>
+
+          <!-- 📌 ลิงก์ที่ 2: เชียงใหม่ (เพิ่มลิงก์ใหม่ของคุณตรงนี้) -->
+     <a href="https://mongkol2010nk-dev.github.io/maesod-taxi/" target="_blank" style="padding: 8px 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 20px; font-size: 0.9rem; font-weight: 500; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">📍 เชียงใหม่</a>
+
+          <!-- 📌 ลิงก์ที่ 2: หัวหิน (เพิ่มลิงก์ใหม่ของคุณตรงนี้) -->
+     <a href="https://mongkol2010nk-dev.github.io/maesod-taxi/" target="_blank" style="padding: 8px 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 20px; font-size: 0.9rem; font-weight: 500; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">📍 หัวหิน</a>
+     
+       <!-- 📌 ลิงก์ที่ 2: แม่สอด (เพิ่มลิงก์ใหม่ของคุณตรงนี้) -->
+     <a href="https://mongkol2010nk-dev.github.io/maesod-taxi/" target="_blank" style="padding: 8px 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 20px; font-size: 0.9rem; font-weight: 500; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">📍 แม่สอด</a>
+  </div>
+</div>
+
+<h1 class="h1">รถเหมาสระแก้ว</h1>
+<p class="sub">รถเหมาสระแก้ว บริการเช่ารถพร้อมคนขับ รับส่งอรัญประเทศ ด่านชายแดน สะดวกสบาย ส่งถึงจุดหมายปลอดภัย</p>
+<div class="stats"><div><b class="cn" data-t="15000" data-s="+">0</b><span>เที่ยววิ่งสำเร็จ</span></div><div><b class="cn" data-t="9">0</b><span>อำเภอในสระแก้ว</span></div><div><b class="cn" data-t="24">0</b><span>ชั่วโมง พร้อมบริการ</span></div></div>
+
+<div class="slider" id="s1"><div class="track">
+<div class="sl"><img data-slide="1" alt="รูปรถ 1"></div>
+<div class="sl"><img data-slide="2" alt="รูปรถ 2"></div>
+<div class="sl"><img data-slide="3" alt="รูปรถ 3"></div>
+<div class="sl"><img data-slide="4" alt="รูปรถ 4"></div>
+<div class="sl"><img data-slide="5" alt="รูปรถ 5"></div>
+<div class="sl"><img data-slide="6" alt="รูปรถ 6"></div>
+<div class="sl"><img data-slide="7" alt="รูปรถ 7"></div>
+<div class="sl"><img data-slide="8" alt="รูปรถ 8"></div>
+<div class="sl"><img data-slide="9" alt="รูปรถ 9"></div>
+</div></div><div class="dots"></div>
+
+<p class="txt">ต้องการรถเหมาพร้อมคนขับในสระแก้ว รับส่งด่านอรัญประเทศ ไปตลาดโรงเกลือ ไปสนามบิน หรือเดินทางจากสระแก้วไปกรุงเทพฯ และต่างจังหวัดหรือไม่? <b>IHD TAXI (มงคลบริการ) ให้บริการรถเหมาสระแก้ว พร้อมคนขับมืออาชีพ</b> สอบถามเส้นทางและเลือกรถที่เหมาะกับการเดินทางได้ ไม่ว่าจะเดินทางคนเดียว ครอบครัว หรือหมู่คณะ</p>
+
+<section class="g" id="contact"><div class="gb">
+<ul class="gl"><li><a href="#taxi">บริการเรียก-เหมาแท็กซี่สระแก้ว ด่วน / จองล่วงหน้า</a></li><li><a href="#airport">บริการรับส่งสนามบิน / ด่านอรัญประเทศ</a></li><li><a href="#rent">บริการเช่ารถพร้อมคนขับสระแก้ว</a></li><li><a href="#van">บริการเหมารถตู้ พร้อมคนขับ สระแก้ว</a></li><li><a href="#province">บริการเหมารถจากสระแก้วไปต่างจังหวัด</a></li></ul>
+<div class="mini"><a class="y" href="tel:0636385818"><span class="ic"><i class="fa-solid fa-phone"></i></span><span>063-638-5818<small>โทรเลย</small></span></a><a class="dg" href="https://lin.ee/ReyDllr" target="_blank" rel="noopener"><span class="ic"><i class="fa-brands fa-line"></i></span><span>LINE OA<small>แอดเพื่อน</small></span></a></div>
+</div></section>
+
+<section id="airport"><div class="ap"><h2>บริการรับส่ง สนามบิน / ด่านอรัญประเทศ</h2>
+<p class="txt">บริการแท็กซี่และรถเหมารับ-ส่งจากสระแก้วไปสนามบินสุวรรณภูมิ ดอนเมือง อู่ตะเภา รวมถึงรับ-ส่งด่านพรมแดนอรัญประเทศ-ปอยเปต จองล่วงหน้าได้ ตรงเวลา ช่วยยกสัมภาระ ให้บริการตลอด 24 ชั่วโมง</p></div>
+<div class="trio" style="margin-top:30px"><a class="ta" href="tel:0636385818"><i class="fa-solid fa-phone"></i>โทรจองรถ<small>063-638-5818</small></a><a class="tg" href="https://lin.ee/ReyDllr" target="_blank" rel="noopener"><i class="fa-brands fa-line"></i>LINE OA<small>ส่งข้อความ</small></a><a class="tv" href="https://wa.me/66636385818" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp<small>แชทเลย</small></a></div>
+<div class="frame"><img data-img="airport" data-ph="รูปรับส่งสนามบิน" alt="บริการรับส่งสนามบิน สระแก้ว" loading="lazy"></div></section>
+
+<section class="sec" data-bg="bgwoman"><h2>บริการรถเหมา สระแก้ว</h2><p>รถเหมาสระแก้ว เดินทางได้ทุกอำเภอ ทั้งอรัญประเทศ วัฒนานคร ตาพระยา วังน้ำเย็น เขาฉกรรจ์ และอำเภอใกล้เคียง ไม่ว่าจะท่องเที่ยว ติดต่อธุรกิจ ข้ามด่านชายแดน หรือกลับภูมิลำเนา มีรถหลายขนาดให้เลือก พร้อมคนขับชำนาญเส้นทาง ราคาเหมาะสม เดินทางปลอดภัย</p></section>
+
+<section id="cars"><h2 class="ct">รถที่ให้บริการ</h2>
+<div class="car c1"><img data-img="sedan" data-ph="รูปรถ Sedan" alt="รถเล็ก Sedan" loading="lazy"><h3>รถเล็ก (Sedan)</h3><p>เหมาะสำหรับเดินทางในสระแก้ว รับส่งด่านอรัญประเทศ รับส่งสนามบิน ประชุมธุรกิจ หรือเดินทางต่างจังหวัดแบบส่วนตัว นั่งสบาย ประหยัด คล่องตัว</p><a href="tel:0636385818">ติดต่อบริการ</a></div>
+<div class="car c2"><img data-img="suv" data-ph="รูปรถ SUV" alt="รถ SUV" loading="lazy"><h3>รถ SUV</h3><p>เหมาะสำหรับผู้ที่ต้องการพื้นที่กว้างขึ้น นั่งสบาย เดินทางไกลจากสระแก้วได้ดี รองรับสัมภาระจำนวนมาก เหมาะกับครอบครัวและนักท่องเที่ยว</p><a href="tel:0636385818">ติดต่อบริการ</a></div>
+<div class="car c3"><img data-img="vipvan" data-ph="รูปรถตู้ VIP" alt="รถตู้ VIP" loading="lazy"><h3>รถตู้ VIP</h3><p>รองรับผู้โดยสารหลายคน เหมาะสำหรับทริปท่องเที่ยวสระแก้ว รับส่งพนักงาน งานสัมมนา เดินทางเป็นหมู่คณะ รถสะอาด กว้างขวาง พร้อมคนขับมืออาชีพ</p><a href="tel:0636385818">ติดต่อบริการ</a></div></section>
+
+<section class="k" id="rent"><h2>บริการเช่ารถพร้อมคนขับ สระแก้ว</h2><div class="line"></div>
+<div class="kimg"><img data-img="passengers" data-ph="รูปผู้โดยสารในรถ" alt="เช่ารถพร้อมคนขับ สระแก้ว" loading="lazy"></div>
+<div class="kb" data-bg="carbg"><div>บริการเช่ารถพร้อมคนขับในสระแก้ว สำหรับลูกค้าที่ต้องการความสะดวกสบาย ไม่ต้องขับรถเอง เหมาะสำหรับเดินทางประชุม งานธุรกิจ ติดต่อด่านชายแดน ท่องเที่ยว หรือใช้งานรายวัน พร้อมคนขับสุภาพ ตรงเวลา และดูแลตลอดการเดินทาง</div></div>
+<div class="trio"><a class="tr" href="tel:0636385818"><i class="fa-solid fa-phone"></i>โทรจองรถ<small>063-638-5818</small></a><a class="tg" href="https://lin.ee/ReyDllr" target="_blank" rel="noopener"><i class="fa-brands fa-line"></i>LINE OA<small>ส่งข้อความ</small></a><a class="tv" href="https://wa.me/66636385818" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp<small>แชทเลย</small></a></div>
+<img class="full" data-img="rentcar" data-ph="รูปรถเช่า" alt="รถเช่าพร้อมคนขับ สระแก้ว" loading="lazy" style="margin-top:50px">
+<div style="height:14px;background:#0f2f66"></div></section>
+
+<section class="l" id="van"><h2>บริการเหมารถตู้ พร้อมคนขับ สระแก้ว</h2><div class="line"></div>
+<img class="full" data-img="vans" data-ph="รูปรถตู้หลายคัน" alt="บริการเหมารถตู้ สระแก้ว" loading="lazy">
+<p class="strip">บริการเช่ารถตู้และเหมารถตู้พร้อมคนขับในสระแก้ว รองรับการเดินทางแบบหมู่คณะ ครอบครัว ทริปท่องเที่ยว สัมมนา หรือรับส่งพนักงาน รถกว้างขวาง นั่งสบาย พร้อมเดินทางจากสระแก้วไปทั่วไทย</p>
+<div style="padding:0 0 50px"><div class="trio"><a class="tr" href="tel:0636385818"><i class="fa-solid fa-phone"></i>โทรจองรถ<small>063-638-5818</small></a><a class="tg" href="https://lin.ee/ReyDllr" target="_blank" rel="noopener"><i class="fa-brands fa-line"></i>LINE OA<small>ส่งข้อความ</small></a><a class="tv" href="https://wa.me/66636385818" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp<small>แชทเลย</small></a></div></div>
+<div class="lw"><div class="rf"><img data-img="van1" data-ph="รูปรถตู้นำเที่ยว" alt="เช่า-เหมารถตู้นำเที่ยว สระแก้ว" loading="lazy"></div><p class="rt">เช่า-เหมารถตู้นำเที่ยวสระแก้ว</p>
+<div class="rf"><img data-img="van2" data-ph="รูปภายในรถตู้ VIP" alt="รถตู้ VIP" loading="lazy"></div><p class="rt">รถตู้ VIP</p>
+<div class="rf"><img data-img="van3" data-ph="รูปรถ VAN LUXURY" alt="VAN LUXURY" loading="lazy"></div><p class="rt">VAN LUXURY</p></div></section>
+
+<section class="m" id="province" style="background:#fff"><h2>บริการเหมารถจากสระแก้ว ไปต่างจังหวัด</h2><div class="line"></div>
+<div class="mc" data-bg="m1"><div class="mi"><i class="fa-solid fa-car-side"></i></div><p>บริการเหมารถเล็ก<br>เหมาะสำหรับ 4 ท่าน</p></div>
+<div class="mc" data-bg="m2"><div class="mi" style="border-color:#3fbf6a;color:#3fbf6a"><i class="fa-solid fa-car-side"></i></div><p>บริการเหมารถใหญ่<br>เหมาะสำหรับ 6 ท่าน</p></div>
+<div class="mc" data-bg="m3"><div class="mi" style="border-color:#9ff0b4;color:#9ff0b4"><i class="fa-solid fa-car-side"></i></div><p>บริการเหมารถตู้<br>เหมาะสำหรับ 10 ท่าน</p></div>
+<div class="dr"><img data-img="driver" data-ph="รูปคนขับกับผู้โดยสาร" alt="คนขับรถเหมาสระแก้ว" loading="lazy"></div>
+<p class="mt">บริการเหมารถจากสระแก้วไปกรุงเทพฯ ปราจีนบุรี ฉะเชิงเทรา จันทบุรี และจังหวัดอื่นๆ แบบส่วนตัว เดินทางสะดวก ไม่ต้องต่อรถ เหมาะสำหรับท่องเที่ยว กลับภูมิลำเนา ติดต่อธุรกิจ หรือเดินทางพร้อมครอบครัว เลือกประเภทรถได้ตามความต้องการ</p></section>
+
+<section class="n" id="taxi" data-bg="taxiBg"><div class="np">บริการแท็กซี่สระแก้ว ด่วน 24 ชั่วโมง</div>
+<div class="nb"><p>ลูกค้าสามารถโทรจองล่วงหน้าได้ เพื่อให้มั่นใจว่ามีรถพร้อมตรงเวลา โดยเฉพาะ:</p><ul><li>เดินทางไปสนามบิน</li><li>รับ-ส่งด่านอรัญประเทศ</li><li>นัดประชุม</li><li>เดินทางจากสระแก้วไปต่างจังหวัด</li><li>เดินทางช่วงเทศกาล</li></ul></div>
+<div class="rb"><a href="tel:0636385818" aria-label="โทร"><i class="fa-solid fa-phone"></i></a><a href="https://lin.ee/ReyDllr" target="_blank" rel="noopener" aria-label="LINE"><i class="fa-brands fa-line"></i></a><a href="https://wa.me/66636385818" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div><div style="height:60px"></div></section>
+
+<section class="o"><h2>บริการเรียก-เหมาแท็กซี่สระแก้ว ด่วน / จองล่วงหน้า</h2><p>บริการโทรเรียกแท็กซี่ด่วน และจองรถล่วงหน้า 24 ชั่วโมง เดินทางสะดวก รวดเร็ว ให้บริการทั้งในจังหวัดสระแก้วและต่างจังหวัด เหมาะสำหรับเดินทางทั่วไป รับส่งงาน รับส่งครอบครัว รับส่งด่านอรัญประเทศ หรือเดินทางเร่งด่วน ด้วยคนขับมืออาชีพและรถพร้อมใช้งานตลอดเวลา</p><img data-img="taxi" data-ph="รูปแท็กซี่" alt="แท็กซี่ด่วน สระแก้ว" loading="lazy"></section>
+
+<section class="arh" id="articles"><h2>บทความและสาระน่ารู้</h2><p class="s">อัปเดตใหม่ทุกวัน เคล็ดลับการเดินทางและแนะนำที่เที่ยวสระแก้ว</p>
+<div class="arbox"><button class="arT" id="arT"><span><i class="fa-solid fa-newspaper"></i> เปิดอ่านบทความ <b id="arC"></b><small id="arL"></small></span><span class="chev">›</span></button></div>
+</section>
+
+<section class="rv" id="reviews"><h2>รีวิวจากลูกค้า</h2><div class="slider" id="s2"><div class="track"></div></div><div class="dots"></div>
+<p class="c" style="padding:22px 18px 0"><button class="btn2 g" id="rvT" style="display:none" aria-expanded="false">ดูรูปรีวิวทั้งหมด</button></p><div class="rvg" id="rvg" hidden></div>
+<p class="c" style="padding:26px 18px 0"><button class="btn2" data-admin="rev"><i class="fa-solid fa-images"></i> เพิ่มรูปรีวิว</button></p></section>
+</main>
+
+<footer><b>IHD TAXI (มงคลบริการ) รถเหมาสระแก้ว</b><br>โทร 063-638-5818 · LINE OA · WhatsApp +66 63 638 5818<br>เปิดบริการ 24 ชั่วโมง ทุกวัน<br>&copy; <span id="yr"></span> IHD TAXI สงวนลิขสิทธิ์</footer>
+
+<div class="fab"><a href="tel:0636385818" aria-label="โทร"><i class="fa-solid fa-phone"></i></a><a href="https://lin.ee/ReyDllr" target="_blank" rel="noopener" aria-label="LINE"><i class="fa-brands fa-line"></i></a><a href="https://wa.me/66636385818" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div>
+
+<div id="arM"><div class="sheet"><div class="ah"><b>บทความและสาระน่ารู้</b><button id="arX" aria-label="ปิด">✕</button></div><div class="arl" id="arl"></div><p class="c" style="padding:16px 0 0"><button class="btn2 g" id="more" style="display:none">ดูบทความเพิ่มเติม</button></p><p class="c" style="padding:10px 0 0"><button class="btn2" data-admin="art"><i class="fa-solid fa-pen-to-square"></i> เขียนบทความใหม่</button></p></div></div>
+<div id="reader"><div class="rin"><button id="rcl">✕ ปิด</button><div id="rbody"></div></div></div>
+<div id="lb"><img id="lbi" alt=""></div>
+<div id="adm"><div class="sheet"><div class="ah"><b>จัดการเว็บไซต์</b><button id="acl" aria-label="ปิด">✕</button></div>
+<div class="tb"><button data-t="art" class="on">เขียนบทความ</button><button data-t="rev">รูปรีวิว</button><button data-t="set">ตั้งค่า</button></div>
+<div class="pane" id="p-art"><label for="at">หัวข้อบทความ *</label><input id="at">
+<div class="r2"><div><label for="ag">หมวดหมู่</label><input id="ag" placeholder="เช่น เที่ยวสระแก้ว"></div><div><label for="ad">วันที่</label><input id="ad" type="date"></div></div>
+<label for="as">คำโปรย</label><input id="as" placeholder="สรุปสั้นๆ 1 บรรทัด">
+<div class="r2"><div><label for="an">ชื่อผู้เขียน</label><input id="an"></div><div><label for="av">รูปโปรไฟล์ผู้เขียน</label><input id="av" type="file" accept="image/*"></div></div>
+<label for="af">รูปปกบทความ</label><input id="af" type="file" accept="image/*">
+<label for="ax">เนื้อหา *</label><textarea id="ax" placeholder="เว้นบรรทัดว่างเพื่อแยกย่อหน้า&#10;ขึ้นต้นด้วย ## คือหัวข้อย่อย&#10;ขึ้นต้นด้วย - คือรายการ"></textarea>
+<small>ถ้าไม่เลือกรูปโปรไฟล์ใหม่ จะใช้รูปล่าสุดที่เคยใช้ให้อัตโนมัติ</small>
+<button class="btn2" id="goA">เผยแพร่บทความ</button></div>
+<div class="pane" id="p-rev" hidden><label for="rf">เลือกรูปรีวิว (เลือกได้หลายรูปพร้อมกัน)</label><input id="rf" type="file" accept="image/*" multiple>
+<small id="rfc">ยังไม่ได้เลือกรูป</small><button class="btn2" id="goR">อัปโหลดรูปรีวิว</button></div>
+<div class="pane" id="p-set" hidden><div class="r2"><div><label for="o">ชื่อบัญชี GitHub</label><input id="o"></div><div><label for="r">ชื่อ Repository</label><input id="r"></div></div>
+<div class="r2"><div><label for="b">Branch</label><input id="b" value="main"></div><div><label for="fp">ชื่อไฟล์หน้านี้</label><input id="fp"></div></div>
+<label for="k">GitHub Token</label><input id="k" type="password" autocomplete="off" placeholder="github_pat_...">
+<small>สร้าง Token: GitHub → Settings → Developer settings → Fine-grained tokens → เลือก Repository นี้อย่างเดียว → สิทธิ์ Contents = Read and write ข้อมูลเก็บในเครื่องคุณเท่านั้น ห้ามส่ง Token ให้ผู้อื่น</small></div>
+<div id="ast" role="status"></div></div></div>
+
+<script>
+/* =====================================================================
+   ตั้งค่ารูปภาพ: แก้ลิงก์ในเครื่องหมายคำพูดได้ทุกรูป
+   ===================================================================== */
+const B='https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/';
+const IMG={
+ logo:B+'3004.jpg?w=1024',
+ banner:B+'2776-2.jpg?w=1024',
+ airport:B+'2929.jpg?w=1024',
+ bgwoman:'',
+ sedan:B+'2756.jpg?w=1024',
+ suv:B+'2920.jpg?w=1024',
+ vipvan:B+'1775-1.png?w=1024',
+ passengers:B+'1760-1.png?w=1024',
+ carbg:'',
+ rentcar:B+'1783-1.jpg?w=1024',
+ vans:'',
+ van1:'', van2:'', van3:'',
+ m1:'', m2:'', m3:'',
+ driver:B+'2779.jpg?w=1024',
+ taxiBg:'',
+ taxi:''
+};
+
+/* รูปสไลด์ 9 รูปที่คุณต้องการ นำมาใส่ไว้ในนี้เรียบร้อยแล้วครับ */
+const SLIDES=[
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/4203.jpg?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1000047586.jpg?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1000047596.jpg?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1803.png?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/1000082193-2.png?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/4832.jpg?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/3790-1.png?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/4833-1.jpg?w=1024',
+  'https://mongkol20010.wordpress.com/wp-content/uploads/2025/10/3004.jpg?w=1024'
+];
+
+const REVIEWS=[
+/*REVIEWS_START*/
+];
+const ARTICLES=[
+/*ARTICLES_START*/
+{id:"2026-10-20-airport-tips",date:"2026-10-20",tag:"รับส่งสนามบิน",title:"เคล็ดลับรับส่งสนามบินจากสระแก้ว ไม่ตกเครื่องแน่นอน",summary:"วิธีวางแผนเวลาและแจ้งรายละเอียดกับคนขับ เพื่อให้ถึงสนามบินทันเที่ยวบินอย่างสบายใจ",img:B+"1777.jpg?w=1024",author:"IHD TAXI",avatar:B+"3004.jpg?w=1024",
+body:`การเดินทางจากสระแก้วไปสนามบินสุวรรณภูมิหรือดอนเมืองให้ทันเวลา เริ่มจากการวางแผนที่ดี สิ่งสำคัญคือเผื่อเวลาให้เพียงพอ
+
+## เผื่อเวลาให้พอ
+- เที่ยวบินในประเทศ ควรถึงสนามบินอย่างน้อย 2 ชั่วโมงก่อนเวลาเครื่องออก
+- เที่ยวบินระหว่างประเทศ ควรถึงอย่างน้อย 3 ชั่วโมงก่อนเวลาเครื่องออก
+- ช่วงเช้าและเย็นของวันทำงาน รถมักติดใกล้กรุงเทพฯ ควรเผื่อเวลาเพิ่ม
+
+## แจ้งข้อมูลตอนจอง
+บอกหมายเลขเที่ยวบิน จุดรับในสระแก้ว จำนวนผู้โดยสาร และจำนวนกระเป๋า เพื่อให้เราเลือกรถได้เหมาะสม และติดตามเวลาลงจริงเมื่อเที่ยวบินล่าช้า`},
+{id:"2026-10-19-aranyaprathet-day-trip",date:"2026-10-19",tag:"เที่ยวสระแก้ว",title:"เที่ยวอรัญประเทศวันเดียว เหมารถไป-กลับ สบายทั้งวัน",summary:"แนะนำเส้นทางเที่ยวอรัญประเทศแบบไปเช้าเย็นกลับ ทั้งตลาดโรงเกลือ ด่านชายแดน และร้านอาหารท้องถิ่น",img:B+"2776-2.jpg?w=1024",author:"IHD TAXI",avatar:B+"3004.jpg?w=1024",
+body:`อรัญประเทศเป็นอำเภอชายแดนของจังหวัดสระแก้ว การเหมารถทำให้เที่ยวได้หลายจุดโดยไม่ต้องกังวลเรื่องขับรถและที่จอดรถ
+
+## จุดแนะนำ
+- ตลาดโรงเกลือ ตลาดการค้าชายแดนไทย-กัมพูชา
+- ด่านพรมแดนอรัญประเทศ
+- ร้านอาหารและของฝากท้องถิ่น
+
+## ก่อนเดินทาง
+ติดต่อสอบถามเส้นทางและราคาเหมาได้ทาง LINE หรือโทร เพื่อวางแผนเวลาให้เหมาะกับโปรแกรมของคุณ`},
+{id:"2026-10-18-travel-with-pets",date:"2026-10-18",tag:"สัตว์เลี้ยง",title:"เดินทางไกลจากสระแก้วกับสัตว์เลี้ยง ต้องเตรียมอะไรบ้าง",summary:"ข้อควรเตรียมก่อนพาน้องหมาน้องแมวเดินทาง เพื่อให้ปลอดภัยและไม่เครียดตลอดทาง",img:B+"2920.jpg?w=1024",author:"IHD TAXI",avatar:B+"3004.jpg?w=1024",
+body:`การพาสัตว์เลี้ยงเดินทางไกลต้องเตรียมตัวล่วงหน้าเล็กน้อย เพื่อให้ทั้งเจ้าของและน้องสบายใจ
+
+## สิ่งที่ควรเตรียม
+- กรงหรือกระเป๋าสำหรับเดินทาง ขนาดพอดีตัว
+- น้ำดื่มและชามสำหรับพักระหว่างทาง
+- ผ้าหรือของใช้คุ้นเคย ช่วยให้น้องคลายเครียด
+
+## แจ้งตอนจอง
+บอกชนิดและขนาดของสัตว์เลี้ยงให้ทีมงานทราบ เพื่อเลือกรถและวางแผนจุดแวะพักให้เหมาะสม`}
+];
+const $=id=>document.getElementById(id);
+const PH=t=>'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9f5d6"/><stop offset="1" stop-color="#0b2a5b"/></linearGradient></defs><rect width="800" height="520" fill="url(#g)"/><text x="400" y="250" font-size="44" text-anchor="middle" fill="#fff" font-family="sans-serif">ใส่รูปที่นี่</text><text x="400" y="312" font-size="30" text-anchor="middle" fill="#fff" font-family="sans-serif">${t}</text></svg>`);
+document.querySelectorAll('[data-img]').forEach(e=>{const k=e.dataset.img,p=e.dataset.ph||k;e.src=IMG[k]||PH(p);e.onerror=()=>{e.onerror=null;e.src=PH(p)}});
+document.querySelectorAll('[data-bg]').forEach(e=>{const u=IMG[e.dataset.bg];if(u)e.style.backgroundImage=`url("${u}")`});
+function slider(id,list,label){const el=$(id),tr=el.querySelector('.track'),dots=el.nextElementSibling;
+ const items=list.length?list:[1,2,3].map(()=>'');
+ if(!tr.children.length){tr.innerHTML=items.map((s,i)=>`<div class="sl"><img src="${s||PH(label)}" alt="${label} ${i+1}" loading="${i?'lazy':'eager'}"></div>`).join('');tr.querySelectorAll('img').forEach(im=>im.onerror=()=>{im.onerror=null;im.src=PH(label)})}
+ const n=tr.children.length;dots.innerHTML=[...tr.children].map(()=>'<i></i>').join('');
+ const idx=()=>Math.round(tr.scrollLeft/tr.clientWidth);
+ const upd=()=>[...dots.children].forEach((d,k)=>d.classList.toggle('on',k===idx()));
+ tr.addEventListener('scroll',upd,{passive:true});upd();
+ const t=setInterval(()=>tr.scrollTo({left:((idx()+1)%n)*tr.clientWidth,behavior:'smooth'}),4200);
+ tr.addEventListener('touchstart',()=>clearInterval(t),{passive:true,once:true})}
+(function(){const tr=document.querySelector('#s1 .track'),slots=tr.querySelectorAll('.sl').length;
+ tr.querySelectorAll('img[data-slide]').forEach((im,i)=>{const ph=PH('ช่องรูปที่ '+(i+1));im.src=SLIDES[i]||ph;im.onerror=()=>{im.onerror=null;im.src=ph}});
+ SLIDES.slice(slots).filter(Boolean).forEach(s=>tr.insertAdjacentHTML('beforeend',`<div class="sl"><img src="${s}" alt="รูปรถ" loading="lazy"></div>`))})();
+slider('s1',SLIDES,'รูปรถ');slider('s2',REVIEWS,'รูปรีวิวลูกค้า');
+$('mb').onclick=()=>$('menu').classList.toggle('on');
+document.querySelectorAll('#menu a').forEach(a=>a.onclick=()=>$('menu').classList.remove('on'));
+$('yr').textContent=new Date().getFullYear()+543;
+(function(){const fmt=n=>n.toLocaleString('th-TH'),rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ const run=el=>{const t=+el.dataset.t,s=el.dataset.s||'';if(rm){el.textContent=fmt(t)+s;return}const st=performance.now();(function k(n){const p=Math.min((n-st)/1800,1);el.textContent=fmt(Math.floor((1-Math.pow(1-p,3))*t))+s;if(p<1)requestAnimationFrame(k);else el.textContent=fmt(t)+s})(st)};
+ const io=new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){run(e.target);o.unobserve(e.target)}}),{threshold:.5});
+ document.querySelectorAll('.cn').forEach(e=>io.observe(e))})();
+
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+if(REVIEWS.length){$('rvg').innerHTML=REVIEWS.map(s=>`<img src="${esc(s)}" alt="รีวิวลูกค้า" loading="lazy">`).join('');$('rvT').style.display='inline-block';$('rvT').textContent='ดูรูปรีวิวทั้งหมด ('+REVIEWS.length+' รูป)'}
+$('rvT').onclick=()=>{const o=$('rvg').hidden;$('rvg').hidden=!o;$('rvT').setAttribute('aria-expanded',o);$('rvT').textContent=o?'ซ่อนรูปรีวิว':'ดูรูปรีวิวทั้งหมด ('+REVIEWS.length+' รูป)'};
+$('rvg').addEventListener('click',e=>{if(e.target.tagName==='IMG'){$('lbi').src=e.target.src;$('lb').classList.add('on')}});
+$('lb').onclick=()=>{$('lb').classList.remove('on');$('lbi').src=''};
+
+const fd=d=>new Date(d).toLocaleDateString('th-TH',{dateStyle:'long'});
+const ART=[...ARTICLES].sort((a,b)=>b.date.localeCompare(a.date)||b.id.localeCompare(a.id));
+const auth=a=>(a.author||a.avatar)?`<div class="au">${a.avatar?`<img src="${esc(a.avatar)}" alt="" loading="lazy">`:''}<b>${esc(a.author||'IHD TAXI')}</b></div>`:'';
+let shown=0;
+function more(){ART.slice(shown,shown+6).forEach(a=>{$('arl').insertAdjacentHTML('beforeend',`<a class="ar" href="#a=${esc(a.id)}">${a.img?`<img src="${esc(a.img)}" alt="${esc(a.title)}" loading="lazy">`:''}<div class="ab"><small>${esc(a.tag)} · ${fd(a.date)}</small><h3>${esc(a.title)}</h3>${auth(a)}<p>${esc(a.summary)}</p><span class="mo">อ่านต่อ ›</span></div></a>`)});shown+=6;$('more').style.display=shown<ART.length?'inline-block':'none'}
+$('more').onclick=more;more();
+const openAr=o=>$('arM').classList.toggle('on',o);
+$('arT').onclick=()=>openAr(true);$('arX').onclick=()=>openAr(false);$('arM').onclick=e=>{if(e.target.id==='arM')openAr(false)};
+if(ART.length){$('arC').textContent='('+ART.length+' เรื่อง)';$('arL').textContent='ล่าสุด: '+ART[0].title}
+document.querySelectorAll('a[href="#articles"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();openAr(true)}));
+const bodyHtml=t=>{let o='',ul=false,p=[];const fp=()=>{if(p.length){o+=`<p>${esc(p.join(' '))}</p>`;p=[]}},fu=()=>{if(ul){o+='</ul>';ul=false}};
+ t.split('\n').forEach(l=>{l=l.trim();if(!l){fp();fu()}else if(l.startsWith('## ')){fp();fu();o+=`<h2>${esc(l.slice(3))}</h2>`}else if(l.startsWith('- ')){fp();if(!ul){o+='<ul>';ul=true}o+=`<li>${esc(l.slice(2))}</li>`}else{fu();p.push(l)}});fp();fu();return o};
+function route(){const m=location.hash.match(/^#a=(.+)$/),a=m&&ART.find(x=>x.id===decodeURIComponent(m[1]));
+ if(!a){$('reader').classList.remove('on');document.title=T0;return}
+ document.title=a.title+' - IHD TAXI';const u=encodeURIComponent(a.title+' '+location.href.split('#')[0]+'#a='+a.id);
+ $('rbody').innerHTML=`${a.img?`<div class="cv"><img src="${esc(a.img)}" alt="${esc(a.title)}"></div>`:''}<div class="mt2" style="margin-top:12px">${esc(a.tag)} · ${fd(a.date)}</div><h1>${esc(a.title)}</h1>${auth(a)}${bodyHtml(a.body)}<div class="act"><a style="background:#d80000" href="tel:0636385818"><i class="fa-solid fa-phone"></i> โทรจองรถ</a><a style="background:#06c755" target="_blank" rel="noopener" href="https://line.me/R/msg/text/?${u}"><i class="fa-brands fa-line"></i> แชร์ LINE</a><a style="background:#25d366" target="_blank" rel="noopener" href="https://wa.me/?text=${u}"><i class="fa-brands fa-whatsapp"></i> แชร์ WhatsApp</a></div>`;
+ $('reader').classList.add('on');$('reader').scrollTop=0}
+const T0=document.title;$('rcl').onclick=()=>{location.hash='#articles'};addEventListener('hashchange',route);route();
+
+const LS='ihd_pub2',MA='/*ARTICLES'+'_START*/',MR='/*REVIEWS'+'_START*/';
+const sv=JSON.parse(localStorage.getItem(LS)||'{}'),AV=JSON.parse(localStorage.getItem('ihd_av2')||'{}');
+const host=location.hostname.endsWith('github.io'),seg=location.pathname.split('/')[1]||'',fl=location.pathname.split('/').pop();
+$('o').value=sv.o||(host?location.hostname.split('.')[0]:'');$('r').value=sv.r||(host?((seg&&!seg.includes('.'))?seg:location.hostname):'');$('b').value=sv.b||'main';$('k').value=sv.k||'';$('fp').value=sv.fp||(fl.endsWith('.html')?fl:'index.html');
+$('an').value=AV.name||'';
+const p2=n=>String(n).padStart(2,'0'),now=new Date();$('ad').value=`${now.getFullYear()}-${p2(now.getMonth()+1)}-${p2(now.getDate())}`;
+const say=(m,c)=>{const e=$('ast');e.style.display='block';e.className=c;e.innerHTML=m};
+function openAdm(t){$('adm').classList.add('on');tab(t)}
+function tab(t){document.querySelectorAll('.tb button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));['art','rev','set'].forEach(x=>$('p-'+x).hidden=x!==t)}
+document.querySelectorAll('.tb button').forEach(b=>b.onclick=()=>tab(b.dataset.t));
+document.querySelectorAll('[data-admin]').forEach(b=>b.onclick=()=>openAdm(b.dataset.admin));
+$('acl').onclick=()=>$('adm').classList.remove('on');
+$('rf').onchange=()=>$('rfc').textContent=$('rf').files.length?`เลือกแล้ว ${$('rf').files.length} รูป`:'ยังไม่ได้เลือกรูป';
+const enc=s=>{const u=new TextEncoder().encode(s);let b='';for(let i=0;i<u.length;i+=8192)b+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(b)};
+const dec=b=>new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\n/g,'')),c=>c.charCodeAt(0)));
+const shrink=(f,max,sq)=>new Promise((ok,no)=>{const im=new Image();im.onload=()=>{const c=document.createElement('canvas');if(sq){const s=Math.min(im.width,im.height);c.width=c.height=320;c.getContext('2d').drawImage(im,(im.width-s)/2,(im.height-s)/2,s,s,0,0,320,320)}else{const k=Math.min(1,max/im.width);c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext('2d').drawImage(im,0,0,c.width,c.height)}ok(c.toDataURL('image/jpeg',.82).split(',')[1])};im.onerror=()=>no(new Error('อ่านไฟล์รูปไม่ได้'));im.src=URL.createObjectURL(f)});
+let C={};
+const cfg=()=>{C={o:$('o').value.trim(),r:$('r').value.trim(),b:$('b').value.trim()||'main',k:$('k').value.trim(),fp:$('fp').value.trim()||'index.html'};if(!C.o||!C.r||!C.k){tab('set');throw new Error('กรุณากรอกการตั้งค่า GitHub ให้ครบ (แท็บ "ตั้งค่า")')}localStorage.setItem(LS,JSON.stringify(C))};
+const api=async(path,opt={})=>{const put=opt.method==='PUT';const r=await fetch(`https://api.github.com/repos/${C.o}/${C.r}/contents/${path}`+(put?'':`?ref=${encodeURIComponent(C.b)}&_=${Date.now()}`),{...opt,headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+C.k,'Content-Type':'application/json'}});
+ if(!r.ok){let m='';try{m=(await r.json()).message}catch(e){}throw new Error(r.status+' '+m)}return r.json()};
+const up=(path,b64,msg)=>api(path,{method:'PUT',body:JSON.stringify({message:msg,content:b64,branch:C.b})});
+async function patch(mark,insert,msg){const cur=await api(C.fp),txt=dec(cur.content);if(!txt.includes(mark))throw new Error('ไม่พบเครื่องหมายในไฟล์ '+C.fp+' (ตรวจชื่อไฟล์ในแท็บตั้งค่า)');
+ await api(C.fp,{method:'PUT',body:JSON.stringify({message:msg,content:enc(txt.replace(mark,()=>mark+'\n'+insert)),sha:cur.sha,branch:C.b})})}
+const J=o=>JSON.stringify(o,null,1).replace(/</g,'\\u003c');
+$('goA').onclick=async()=>{const btn=$('goA'),title=$('at').value.trim(),text=$('ax').value.trim();
+ if(!title||!text){say('กรุณากรอกหัวข้อและเนื้อหา','bad');return}btn.disabled=true;
+ try{cfg();const n=new Date(),date=$('ad').value,id=`${date}-${p2(n.getHours())}${p2(n.getMinutes())}${p2(n.getSeconds())}`;let img='',avatar=AV.avatar||'';
+  if($('af').files[0]){say('กำลังอัปโหลดรูปปก...','wt');img=`images/articles/${id}.jpg`;await up(img,await shrink($('af').files[0],1280),'เพิ่มรูปบทความ '+id)}
+  if($('av').files[0]){say('กำลังอัปโหลดรูปโปรไฟล์...','wt');avatar=`images/avatars/${id}.jpg`;await up(avatar,await shrink($('av').files[0],0,true),'เพิ่มรูปโปรไฟล์ '+id)}
+  const author=$('an').value.trim();localStorage.setItem('ihd_av2',JSON.stringify({name:author,avatar}));AV.name=author;AV.avatar=avatar;
+  say('กำลังบันทึกบทความ...','wt');
+  await patch(MA,J({id,date,tag:$('ag').value.trim()||'ทั่วไป',title,summary:$('as').value.trim()||text.replace(/[#\-\n]+/g,' ').slice(0,110),img,author,avatar,body:text})+',','เผยแพร่บทความ: '+title);
+  say('เผยแพร่สำเร็จ! เว็บไซต์จะอัปเดตภายใน 1–2 นาที แล้วรีเฟรชหน้านี้เพื่อดูบทความ','ok');['at','ag','as','af','av','ax'].forEach(i=>$(i).value='')
+ }catch(e){say('เกิดข้อผิดพลาด: '+esc(e.message),'bad')}btn.disabled=false};
+$('goR').onclick=async()=>{const btn=$('goR'),fs=[...$('rf').files];if(!fs.length){say('กรุณาเลือกรูปรีวิวก่อน','bad');return}btn.disabled=true;
+ try{cfg();const t=Date.now(),paths=[];
+  for(let i=0;i<fs.length;i++){say(`กำลังอัปโหลดรูปที่ ${i+1} จาก ${fs.length}...`,'wt');const p=`images/reviews/${t}-${i}.jpg`;await up(p,await shrink(fs[i],1280),'เพิ่มรูปรีวิว');paths.push(p)}
+  say('กำลังบันทึกรายการรีวิว...','wt');await patch(MR,paths.map(p=>JSON.stringify(p)+',').join('\n'),`เพิ่มรูปรีวิว ${fs.length} รูป`);
+  say(`เพิ่มรูปรีวิว ${fs.length} รูปสำเร็จ! เว็บไซต์จะอัปเดตภายใน 1–2 นาที แล้วรีเฟรชหน้านี้`,'ok');$('rf').value='';$('rfc').textContent='ยังไม่ได้เลือกรูป'
+ }catch(e){say('เกิดข้อผิดพลาด: '+esc(e.message),'bad')}btn.disabled=false};
+</script>
+</body>
+</html>
